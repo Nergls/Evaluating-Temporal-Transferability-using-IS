@@ -38,7 +38,7 @@ The notebook reproduces the statistical analyses, temporal transferability evalu
 
 ###### **🐍 Python Environment (for spatial preprocessing notebooks)**
 
-The Python Jupyter Notebooks in this repository (files 020\_\*.ipynb to 024\_\*.ipynb) require a dedicated geospatial environment.
+The Python Jupyter Notebooks in this repository (files 02*\_\*.ipynb ) require a dedicated geospatial environment.
 
 A reproducible Conda environment file is provided:
 
