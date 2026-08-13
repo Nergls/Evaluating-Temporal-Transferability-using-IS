@@ -18,31 +18,32 @@ The evaluated traits include:
 - Acid detergent fiber (ADF%)
 - Neutral detergent fiber (NDF%)
 
-The notebook reproduces the statistical analyses, temporal transferability evaluation, model summaries, and figures presented in the manuscript.
+The repository provides the PLSR modeling and statistical analysis workflows used in the manuscript.
 
 ---
 
 
 ## 📁 Repository Contents
 
-###### **Core Files**
+##### **Core Files**
 
 | File | Description |
 |------|-------------|
-| `027_PPR2_stats_published.ipynb` | Complete analysis workflow used in the manuscript |
+| `012_PPR2_PLSR_PRO-up2d8_debugged_published.R` | PLSR model calibration and within-year validation workflow |
+| `012b_PPR2_PLSR__PRO_Revision_Updates_published.R` | Revised PLSR model-performance calculations |
+| `012c_PPR2_PLSR__PRO_Revision_Updates_cross_year_published.R` | Cross-year prediction and revised performance evaluation |
+| `018_CALL_cumulative_models_FUNCTION_published.R` | Workflow for running pooled multi-year calibration models |
+| `027_PPR2_stats_organizer_revised_published.ipynb` | Statistical analyses, model summaries, and output organization used in the manuscript |
+| `Randomly_generated_sample_data_structure.csv` | Synthetic dataset reproducing the input-data structure required to demonstrate the modeling workflow |
 | `geopandas_env.yml` | Conda environment for reproducing the Python environment |
 
 
 
 ## 📦 Dependencies
 
-###### **🐍 Python Environment (for spatial preprocessing notebooks)**
+##### **🐍 Python Environment **
 
-The Python Jupyter Notebooks in this repository (files 02*\_\*.ipynb ) require a dedicated geospatial environment.
-
-A reproducible Conda environment file is provided:
-
-* geopandas\_env.yml
+The Python statistical-analysis workflow in 027_PPR2_stats_organizer_revised_published.ipynb requires the Python environment specified in geopandas\_env.yml.
 
 **Create the environment:**
 
